@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\Club;
 
 class ClubSeeder extends Seeder
 {
@@ -13,6 +14,6 @@ class ClubSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Club::factory(5)->create(); // Create 5 clubs
     }
 }
