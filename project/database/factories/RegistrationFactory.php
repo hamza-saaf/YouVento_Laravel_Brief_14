@@ -7,7 +7,7 @@ use App\Models\Registration;
 use App\Models\User;
 use App\Models\Event;
 
-class RegistrationFactoyFactory extends Factory
+class RegistrationFactory extends Factory
 {
     protected $model = Registration::class;
     /**
