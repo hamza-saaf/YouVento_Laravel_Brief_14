@@ -13,7 +13,7 @@
         <div class="w-64 bg-blue-900 text-white min-h-screen p-5">
             <h2 class="text-2xl font-bold">Admin Dashboard</h2>
             <nav class="mt-5">
-                <a href="{{ route('admin.clubs.index') }}" class="block py-2 px-3 bg-blue-700 rounded-md mt-2">Gestion des Clubs</a>
+                <a href="" class="block py-2 px-3 bg-blue-700 rounded-md mt-2">Gestion des Clubs</a>
             </nav>
         </div>
 

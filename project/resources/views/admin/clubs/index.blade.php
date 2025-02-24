@@ -36,8 +36,8 @@
                             @method('DELETE')
                             <button type="submit" class="bg-red-500 text-white px-3 py-1 rounded-md">Supprimer</button>
                         </form>
-
-                        <form action="{{ route('admin.clubs.archive', $club->id) }}" method="POST" class="inline">
+                        {{-- {{ route('admin.clubs.archive', $club->id) }} --}}
+                        <form action="" method="POST" class="inline">
                             @csrf
                             @method('PUT')
                             <button type="submit" class="bg-gray-500 text-white px-3 py-1 rounded-md">Archiver</button>
